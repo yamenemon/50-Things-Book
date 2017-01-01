@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +20,38 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    [[UITabBar appearance] setTintColor:UIColorFromRGB(0xFBE3BF)]; //FBE3BF
+    [[UITabBar appearance] setBarTintColor:UIColorFromRGB(0xB9864F)]; //B9864F
+
+
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    UITabBar *tabBar = tabBarController.tabBar;
+    UITabBarItem *tabBarItem1 = [tabBar.items objectAtIndex:0];
+    UITabBarItem *tabBarItem2 = [tabBar.items objectAtIndex:1];
+    UITabBarItem *tabBarItem3 = [tabBar.items objectAtIndex:2];
+    UITabBarItem *tabBarItem4 = [tabBar.items objectAtIndex:3];
+
+    [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName : UIColorFromRGB(0xFBE3BF) }
+                                             forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{ NSForegroundColorAttributeName : [UIColor blackColor] }
+                                             forState:UIControlStateSelected];
+
+    tabBarItem1.selectedImage = [[UIImage imageNamed:@"iconTab0"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    tabBarItem1.image = [[UIImage imageNamed:@"iconTab0"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    tabBarItem1.title = @"Foreword";
+
+    tabBarItem2.selectedImage = [[UIImage imageNamed:@"iconTab1"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    tabBarItem2.image = [[UIImage imageNamed:@"iconTab1"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    tabBarItem2.title = @"Chapters";
+
+    tabBarItem3.selectedImage = [[UIImage imageNamed:@"iconTab2"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    tabBarItem3.image = [[UIImage imageNamed:@"iconTab2"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    tabBarItem3.title = @"Author";
+
+    tabBarItem4.selectedImage = [[UIImage imageNamed:@"iconTab3"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    tabBarItem4.image = [[UIImage imageNamed:@"iconTab3"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    tabBarItem4.title = @"Get Hard Copy";
+
     return YES;
 }
 

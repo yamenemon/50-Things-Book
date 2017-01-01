@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  AuthorViewController.h
 //  50 Thinks Book
 //
 //  Created by Emon on 12/30/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface AuthorViewController : UIViewController
 
 @end
-
