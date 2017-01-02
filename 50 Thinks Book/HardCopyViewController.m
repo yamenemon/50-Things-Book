@@ -9,6 +9,8 @@
 #import "HardCopyViewController.h"
 
 @interface HardCopyViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *amazonBtn;
+@property (weak, nonatomic) IBOutlet UIButton *luluBtn;
 
 @end
 
@@ -18,7 +20,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+-(void)viewDidLayoutSubviews{
 
+    _amazonBtn.layer.cornerRadius = 5.0;
+    _luluBtn.layer.cornerRadius = 5.0;
+
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

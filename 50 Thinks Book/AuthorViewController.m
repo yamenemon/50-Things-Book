@@ -11,10 +11,13 @@
 @interface AuthorViewController (){
 
     NSString *authorText;
+    UILabel *authorTextLabel;
+    UIImageView *authorImageView;
 }
 @property (weak, nonatomic) IBOutlet UILabel *authorHeaderText;
 @property (nonatomic,assign) float authorTextHeight;
 @property (weak, nonatomic) IBOutlet UIScrollView *authorInfoScroller;
+
 @end
 
 @implementation AuthorViewController
@@ -25,17 +28,30 @@
     _authorTextHeight = [self calculateAuthorTextHeight];
 //    _authorInfoScroller = [[UIScrollView alloc] initWithFrame:CGRectMake(5, _authorHeaderText.frame.origin.y+_authorHeaderText.frame.size.height, self.view.frame.size.width - 10, self.view.frame.size.height-(_authorHeaderText.frame.origin.y+_authorHeaderText.frame.size.height))];
 //    [self.view addSubview:_authorInfoScroller];
+    
+    [self createScroller];
 }
 -(void)viewWillAppear:(BOOL)animated{
+    [[NSNotificationCenter defaultCenter] addObserver:self  selector:@selector(orientationChanged:)  name:UIDeviceOrientationDidChangeNotification  object:nil];
+}
+-(void)createScroller{
+
     float width = 200;
     float height = 200;
     UIImage *authorImage = [UIImage imageNamed:@"timShiner"];
-    UIImageView *authorImageView = [[UIImageView alloc] initWithFrame:CGRectMake((_authorInfoScroller.frame.size.width - 200)/2, 10, width, height)];
+    
+    if (authorImageView) {
+        [authorImageView removeFromSuperview];
+    }
+    authorImageView = [[UIImageView alloc] initWithFrame:CGRectMake((_authorInfoScroller.frame.size.width - 200)/2, 10, width, height)];
     authorImageView.image = authorImage;
     authorImageView.contentMode = UIViewContentModeScaleAspectFill;
     [_authorInfoScroller addSubview:authorImageView];
-
-    UILabel *authorTextLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 10+authorImageView.frame.size.height, _authorInfoScroller.frame.size.width - 20, _authorTextHeight)];
+    
+    if (authorTextLabel) {
+        [authorTextLabel removeFromSuperview];
+    }
+    authorTextLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 10+authorImageView.frame.size.height, _authorInfoScroller.frame.size.width - 25, _authorTextHeight)];
     authorTextLabel.text = authorText;
     [_authorInfoScroller addSubview:authorTextLabel];
     authorTextLabel.font = [UIFont fontWithName:@"BodoniSvtyTwoITCTT-BookIta" size:18];;
@@ -48,10 +64,35 @@
     authorTextLabel.textColor = [UIColor blackColor];
     authorTextLabel.textAlignment = NSTextAlignmentJustified;
     [authorTextLabel sizeToFit];
-
+    
     float scrollerWidth = _authorInfoScroller.frame.size.width;
     float scrollerHeight = (authorImageView.frame.size.height + authorTextLabel.frame.size.height + 70);
     _authorInfoScroller.contentSize = CGSizeMake(scrollerWidth,scrollerHeight);
+}
+- (void)orientationChanged:(NSNotification *)notification{
+    [self handleOrientation:[[UIApplication sharedApplication] statusBarOrientation]];
+}
+- (void) handleOrientation:(UIInterfaceOrientation) orientation {
+    
+//    if (orientation == UIInterfaceOrientationPortrait || orientation == UIInterfaceOrientationPortraitUpsideDown)
+//    {
+//        //handle the portrait view
+//    }
+//    else if (orientation == UIInterfaceOrientationLandscapeLeft || orientation == UIInterfaceOrientationLandscapeRight)
+//    {
+//    
+//        CGRect frame = _authorInfoScroller.frame;
+//        frame.size.width = self.view.bounds.size.width;
+//        _authorInfoScroller.frame = frame;
+//        
+//        [self createScroller];
+//    }
+    
+    CGRect frame = _authorInfoScroller.frame;
+    frame.size.width = self.view.bounds.size.width;
+    _authorInfoScroller.frame = frame;
+    
+    [self createScroller];
 }
 -(float)calculateAuthorTextHeight{
 
