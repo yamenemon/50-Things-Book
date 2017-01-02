@@ -24,7 +24,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eA9-Ow-ZBd" userLabel="BaseView">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foreword.png" translatesAutoresizingMaskIntoConstraints="NO" id="iQ0-8O-dZZ">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foreword.png" highlightedImage="foreword.png" translatesAutoresizingMaskIntoConstraints="NO" id="iQ0-8O-dZZ">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Foreword" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KXe-KC-baV">
@@ -139,13 +139,14 @@ Founder of Guru Alert.</mutableString>
                     </view>
                     <navigationItem key="navigationItem" id="vtE-v4-zSy"/>
                     <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="indexTable" destination="Ya4-3A-lrj" id="ZbM-Yt-7y3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="253.59999999999999" y="-332.38380809595208"/>
+            <point key="canvasLocation" x="503" y="-326"/>
         </scene>
         <!--Item-->
         <scene sceneID="yK9-Vj-upI">
@@ -200,15 +201,16 @@ Founder of Guru Alert.</mutableString>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="dg2-1C-h9Z"/>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <connections>
                         <outlet property="authorInfoScroller" destination="pKt-BY-Oui" id="qLJ-iz-rbT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WeY-yg-TSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="885.50724637681162" y="-333.42391304347831"/>
+            <point key="canvasLocation" x="1249" y="-333"/>
         </scene>
-        <!--Get Hard Copy-->
+        <!--Item-->
         <scene sceneID="265-lg-EkO">
             <objects>
                 <viewController id="69z-w5-x7B" customClass="HardCopyViewController" sceneMemberID="viewController">
@@ -236,11 +238,11 @@ Founder of Guru Alert.</mutableString>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dlq-8S-zJG">
-                                        <rect key="frame" x="100.66666666666669" y="125" width="213" height="70"/>
+                                        <rect key="frame" x="60" y="125" width="315" height="70"/>
                                         <color key="backgroundColor" red="0.60469990968704224" green="0.46856319904327393" blue="0.32330328226089478" alpha="0.49553189212328769" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="01H-0M-JOd"/>
-                                            <constraint firstAttribute="width" constant="213" id="Z0m-rk-Ow2"/>
+                                            <constraint firstAttribute="width" constant="315" id="Z0m-rk-Ow2"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="30"/>
                                         <inset key="imageEdgeInsets" minX="-50" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -252,7 +254,7 @@ Founder of Guru Alert.</mutableString>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bou-hz-m9b">
-                                        <rect key="frame" x="100.66666666666669" y="214" width="213" height="70"/>
+                                        <rect key="frame" x="60" y="214" width="315" height="70"/>
                                         <color key="backgroundColor" red="0.60469990968704224" green="0.46856319904327393" blue="0.32330328226089478" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="30"/>
                                         <inset key="imageEdgeInsets" minX="-88" minY="0.0" maxX="0.0" maxY="0.0"/>
@@ -269,7 +271,7 @@ Founder of Guru Alert.</mutableString>
                                     <constraint firstAttribute="trailing" secondItem="67C-cw-3Mt" secondAttribute="trailing" id="1jH-nh-m82"/>
                                     <constraint firstItem="Bou-hz-m9b" firstAttribute="centerX" secondItem="Dlq-8S-zJG" secondAttribute="centerX" id="61B-FU-B5b"/>
                                     <constraint firstItem="Bou-hz-m9b" firstAttribute="leading" secondItem="Dlq-8S-zJG" secondAttribute="leading" id="6uy-1a-EDQ"/>
-                                    <constraint firstItem="Dlq-8S-zJG" firstAttribute="centerX" secondItem="67C-cw-3Mt" secondAttribute="centerX" id="CCL-VZ-GSz"/>
+                                    <constraint firstItem="Dlq-8S-zJG" firstAttribute="centerX" secondItem="67C-cw-3Mt" secondAttribute="centerX" constant="10.5" id="CCL-VZ-GSz"/>
                                     <constraint firstItem="Bou-hz-m9b" firstAttribute="top" secondItem="Dlq-8S-zJG" secondAttribute="bottom" constant="19" id="MLK-jw-M6W"/>
                                     <constraint firstItem="Bou-hz-m9b" firstAttribute="trailing" secondItem="Dlq-8S-zJG" secondAttribute="trailing" id="NCW-Pf-HPx"/>
                                     <constraint firstItem="67C-cw-3Mt" firstAttribute="top" secondItem="pkA-Gl-xFI" secondAttribute="top" id="NX9-9r-N60"/>
@@ -292,7 +294,9 @@ Founder of Guru Alert.</mutableString>
                             <constraint firstAttribute="trailing" secondItem="pkA-Gl-xFI" secondAttribute="trailing" id="utg-2A-aIP"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Get Hard Copy" id="t8W-T2-wV2"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="s0g-Xd-NPK"/>
+                    <navigationItem key="navigationItem" id="dCE-f0-IjI"/>
+                    <nil key="simulatedStatusBarMetrics"/>
                     <connections>
                         <outlet property="amazonBtn" destination="Dlq-8S-zJG" id="U6q-2G-Kbi"/>
                         <outlet property="luluBtn" destination="Bou-hz-m9b" id="8ld-sU-AQo"/>
@@ -300,7 +304,7 @@ Founder of Guru Alert.</mutableString>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0iJ-kC-YGr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1536.8" y="-332.38380809595208"/>
+            <point key="canvasLocation" x="1896" y="-333"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -316,35 +320,35 @@ Founder of Guru Alert.</mutableString>
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="wsa-uu-rHl" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="VWU-VO-ggf" kind="relationship" relationship="viewControllers" id="8KA-JN-kVr"/>
-                        <segue destination="69z-w5-x7B" kind="relationship" relationship="viewControllers" id="aTW-5j-QVm"/>
+                        <segue destination="a0f-lw-mhM" kind="relationship" relationship="viewControllers" id="KDm-1v-cvE"/>
+                        <segue destination="VWU-VO-ggf" kind="relationship" relationship="viewControllers" id="GRf-pk-CRk"/>
+                        <segue destination="69z-w5-x7B" kind="relationship" relationship="viewControllers" id="7Oe-xn-lgJ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-113" y="-1065"/>
         </scene>
-        <!--Chapters-->
-        <scene sceneID="Ilt-nU-P4S">
+        <!--Item-->
+        <scene sceneID="Jol-WK-p9k">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="wsa-uu-rHl" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Chapters" image="second" id="cPa-gy-q4n"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="a0f-lw-mhM" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="iM8-6u-YQU"/>
                     <toolbarItems/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Maw-LD-Hri">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DeX-jc-Tmv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="r3W-VH-FYN"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="h3l-gS-xeL"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7BR-2T-W92" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fWu-cd-MN2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-372" y="-326"/>
+            <point key="canvasLocation" x="-267" y="-333"/>
         </scene>
     </scenes>
     <resources>
@@ -352,6 +356,5 @@ Founder of Guru Alert.</mutableString>
         <image name="amazon.png" width="60" height="59"/>
         <image name="first" width="30" height="30"/>
         <image name="foreword.png" width="549" height="413"/>
-        <image name="second" width="30" height="30"/>
     </resources>
 </document>

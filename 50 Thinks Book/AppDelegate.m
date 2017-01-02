@@ -37,19 +37,19 @@
                                              forState:UIControlStateSelected];
 
     tabBarItem1.selectedImage = [[UIImage imageNamed:@"iconTab0"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-    tabBarItem1.image = [[UIImage imageNamed:@"iconTab0"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    tabBarItem1.image = [[UIImage imageNamed:@"iconTab0_hover"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
     tabBarItem1.title = @"Foreword";
 
     tabBarItem2.selectedImage = [[UIImage imageNamed:@"iconTab1"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-    tabBarItem2.image = [[UIImage imageNamed:@"iconTab1"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    tabBarItem2.image = [[UIImage imageNamed:@"iconTab1_hover"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
     tabBarItem2.title = @"Chapters";
 
     tabBarItem3.selectedImage = [[UIImage imageNamed:@"iconTab2"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-    tabBarItem3.image = [[UIImage imageNamed:@"iconTab2"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    tabBarItem3.image = [[UIImage imageNamed:@"iconTab2_hover"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
     tabBarItem3.title = @"Author";
 
     tabBarItem4.selectedImage = [[UIImage imageNamed:@"iconTab3"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-    tabBarItem4.image = [[UIImage imageNamed:@"iconTab3"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
+    tabBarItem4.image = [[UIImage imageNamed:@"iconTab3_hover"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
     tabBarItem4.title = @"Get Hard Copy";
 
     return YES;

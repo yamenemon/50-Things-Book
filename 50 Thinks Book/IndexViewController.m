@@ -45,12 +45,19 @@
     cell.backgroundColor = [UIColor clearColor];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     // Configure the cell...
-    cell.textLabel.text = [NSString stringWithFormat:@"Chapter : %ld",indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"Chapter : %ld",indexPath.row + 1];
     
     return cell;
     
 }
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"pdfViewerViewController"];
+    vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentViewController:vc animated:YES completion:NULL];
+
+}
 /*
 #pragma mark - Navigation
 
