@@ -93,13 +93,13 @@ Founder of Guru Alert.</mutableString>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UEN-Oz-y3Q" userLabel="BaseView">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="643"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foreword.png" translatesAutoresizingMaskIntoConstraints="NO" id="y2Z-AA-QsE">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="643"/>
                                     </imageView>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ya4-3A-lrj">
-                                        <rect key="frame" x="0.0" y="72" width="414" height="615"/>
+                                        <rect key="frame" x="0.0" y="72" width="414" height="571"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <outlet property="dataSource" destination="8rJ-Kc-sve" id="38e-6e-Ksb"/>
@@ -139,7 +139,6 @@ Founder of Guru Alert.</mutableString>
                     </view>
                     <navigationItem key="navigationItem" id="vtE-v4-zSy"/>
                     <nil key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="indexTable" destination="Ya4-3A-lrj" id="ZbM-Yt-7y3"/>
                     </connections>
@@ -147,6 +146,51 @@ Founder of Guru Alert.</mutableString>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="503" y="-326"/>
+        </scene>
+        <!--Pdf Viewer View Controller-->
+        <scene sceneID="90t-Sh-k1A">
+            <objects>
+                <viewController storyboardIdentifier="pdfViewerViewController" id="ifX-6e-Yx9" customClass="PdfViewerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Soh-oq-W9r"/>
+                        <viewControllerLayoutGuide type="bottom" id="rpo-Ji-Zw8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OEv-4n-9bb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CMM-vy-Hdb" userLabel="BaseView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JxO-so-KC0">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </webView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="JxO-so-KC0" secondAttribute="bottom" id="6Wb-Hj-RQy"/>
+                                    <constraint firstAttribute="trailing" secondItem="JxO-so-KC0" secondAttribute="trailing" id="8Xa-Yl-buX"/>
+                                    <constraint firstItem="JxO-so-KC0" firstAttribute="top" secondItem="CMM-vy-Hdb" secondAttribute="top" id="HXu-1d-Qje"/>
+                                    <constraint firstItem="JxO-so-KC0" firstAttribute="leading" secondItem="CMM-vy-Hdb" secondAttribute="leading" id="YQ3-Bb-cWO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CMM-vy-Hdb" firstAttribute="leading" secondItem="OEv-4n-9bb" secondAttribute="leading" id="8cd-dq-nkX"/>
+                            <constraint firstItem="CMM-vy-Hdb" firstAttribute="top" secondItem="OEv-4n-9bb" secondAttribute="top" id="GYD-N4-HPC"/>
+                            <constraint firstItem="rpo-Ji-Zw8" firstAttribute="top" secondItem="CMM-vy-Hdb" secondAttribute="bottom" id="Kri-DL-cPC"/>
+                            <constraint firstAttribute="trailing" secondItem="CMM-vy-Hdb" secondAttribute="trailing" id="jdt-R3-CKD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="JxO-so-KC0" id="Nvc-ej-lnV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qhh-YN-cUd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1186.9565217391305" y="-326.08695652173918"/>
         </scene>
         <!--Item-->
         <scene sceneID="yK9-Vj-upI">
@@ -208,7 +252,7 @@ Founder of Guru Alert.</mutableString>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WeY-yg-TSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1249" y="-333"/>
+            <point key="canvasLocation" x="2252" y="-326"/>
         </scene>
         <!--Item-->
         <scene sceneID="265-lg-EkO">
@@ -304,7 +348,7 @@ Founder of Guru Alert.</mutableString>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0iJ-kC-YGr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1896" y="-333"/>
+            <point key="canvasLocation" x="2909" y="-326"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -332,11 +376,10 @@ Founder of Guru Alert.</mutableString>
         <!--Item-->
         <scene sceneID="Jol-WK-p9k">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="a0f-lw-mhM" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a0f-lw-mhM" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="iM8-6u-YQU"/>
                     <toolbarItems/>
                     <nil key="simulatedStatusBarMetrics"/>
-                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DeX-jc-Tmv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

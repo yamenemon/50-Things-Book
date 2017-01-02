@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "PdfViewerViewController.h"
 @interface IndexViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
 
 @end
