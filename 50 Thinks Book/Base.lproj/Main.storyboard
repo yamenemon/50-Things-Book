@@ -35,7 +35,7 @@
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTA-OT-tqO">
                                         <rect key="frame" x="8" y="96" width="398" height="587"/>
-                                        <mutableString key="text">        These 50 lessons are wonderful to integrate into your life and was a reminder for me to do better on a few of them. Tim is so consistent at implementing them and that is why he stands out as the best in the industry.
+                                        <string key="text">        These 50 lessons are wonderful to integrate into your life and was a reminder for me to do better on a few of them. Tim is so consistent at implementing them and that is why he stands out as the best in the industry.
 
          You don’t need great sales skills starting off, but if you make a habit of implementing these lessons, I know you will have people wanting to buy from you, along with everyone enjoying being around you.
 
@@ -45,7 +45,7 @@
 
 Lance Dean
 Co-Founder, 2gig Technologies,
-Founder of Guru Alert.</mutableString>
+Founder of Guru Alert.</string>
                                         <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-BookIt" family="Bodoni 72 Oldstyle" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
@@ -93,13 +93,13 @@ Founder of Guru Alert.</mutableString>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UEN-Oz-y3Q" userLabel="BaseView">
-                                <rect key="frame" x="0.0" y="44" width="414" height="643"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foreword.png" translatesAutoresizingMaskIntoConstraints="NO" id="y2Z-AA-QsE">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="643"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
                                     </imageView>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ya4-3A-lrj">
-                                        <rect key="frame" x="0.0" y="72" width="414" height="571"/>
+                                        <rect key="frame" x="0.0" y="72" width="414" height="615"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <outlet property="dataSource" destination="8rJ-Kc-sve" id="38e-6e-Ksb"/>
@@ -139,6 +139,7 @@ Founder of Guru Alert.</mutableString>
                     </view>
                     <navigationItem key="navigationItem" id="vtE-v4-zSy"/>
                     <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="indexTable" destination="Ya4-3A-lrj" id="ZbM-Yt-7y3"/>
                     </connections>
@@ -146,51 +147,6 @@ Founder of Guru Alert.</mutableString>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="503" y="-326"/>
-        </scene>
-        <!--Pdf Viewer View Controller-->
-        <scene sceneID="90t-Sh-k1A">
-            <objects>
-                <viewController storyboardIdentifier="pdfViewerViewController" id="ifX-6e-Yx9" customClass="PdfViewerViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Soh-oq-W9r"/>
-                        <viewControllerLayoutGuide type="bottom" id="rpo-Ji-Zw8"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="OEv-4n-9bb">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CMM-vy-Hdb" userLabel="BaseView">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <subviews>
-                                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JxO-so-KC0">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </webView>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="JxO-so-KC0" secondAttribute="bottom" id="6Wb-Hj-RQy"/>
-                                    <constraint firstAttribute="trailing" secondItem="JxO-so-KC0" secondAttribute="trailing" id="8Xa-Yl-buX"/>
-                                    <constraint firstItem="JxO-so-KC0" firstAttribute="top" secondItem="CMM-vy-Hdb" secondAttribute="top" id="HXu-1d-Qje"/>
-                                    <constraint firstItem="JxO-so-KC0" firstAttribute="leading" secondItem="CMM-vy-Hdb" secondAttribute="leading" id="YQ3-Bb-cWO"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="CMM-vy-Hdb" firstAttribute="leading" secondItem="OEv-4n-9bb" secondAttribute="leading" id="8cd-dq-nkX"/>
-                            <constraint firstItem="CMM-vy-Hdb" firstAttribute="top" secondItem="OEv-4n-9bb" secondAttribute="top" id="GYD-N4-HPC"/>
-                            <constraint firstItem="rpo-Ji-Zw8" firstAttribute="top" secondItem="CMM-vy-Hdb" secondAttribute="bottom" id="Kri-DL-cPC"/>
-                            <constraint firstAttribute="trailing" secondItem="CMM-vy-Hdb" secondAttribute="trailing" id="jdt-R3-CKD"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="webView" destination="JxO-so-KC0" id="Nvc-ej-lnV"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qhh-YN-cUd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1186.9565217391305" y="-326.08695652173918"/>
         </scene>
         <!--Item-->
         <scene sceneID="yK9-Vj-upI">
@@ -376,10 +332,12 @@ Founder of Guru Alert.</mutableString>
         <!--Item-->
         <scene sceneID="Jol-WK-p9k">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a0f-lw-mhM" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fWu-cd-MN2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="a0f-lw-mhM" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="iM8-6u-YQU"/>
                     <toolbarItems/>
                     <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DeX-jc-Tmv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -389,7 +347,6 @@ Founder of Guru Alert.</mutableString>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="h3l-gS-xeL"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fWu-cd-MN2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-267" y="-333"/>
         </scene>

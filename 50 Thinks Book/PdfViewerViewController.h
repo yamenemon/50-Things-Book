@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ReaderDocument.h"
+#import "ReaderViewController.h"
 
 @interface PdfViewerViewController : UIViewController
 @property (nonatomic,assign) int pdfNumber;
