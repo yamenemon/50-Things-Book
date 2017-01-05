@@ -400,8 +400,8 @@
 		700465991E1A5201009B2663 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				702770CD1E1BBB8E00D8E4C5 /* accessoryIcon@2x.png */,
 				700E2CA01E1B9F940042A897 /* PDF Button */,
+				702770CD1E1BBB8E00D8E4C5 /* accessoryIcon@2x.png */,
 				700465D21E1A8B5A009B2663 /* Default-568h@2x.png */,
 				700465D31E1A8B5A009B2663 /* Default.png */,
 				700465D41E1A8B5A009B2663 /* Default@2x.png */,
@@ -616,7 +616,7 @@
 				TargetAttributes = {
 					3BFA81421E16A07F005C6299 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 68449K2QZC;
+						DevelopmentTeam = 8Y534JBUBF;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -828,7 +828,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Central Station Marketing, LLC (8Y534JBUBF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Central Station Marketing, LLC (8Y534JBUBF)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -876,7 +877,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: evan@centralstationmarketing.com (63M8KS9XVK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Central Station Marketing, LLC (8Y534JBUBF)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -902,12 +904,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Evan Islam (9G6F7TBHUS)";
-				DEVELOPMENT_TEAM = 68449K2QZC;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Central Station Marketing, LLC (8Y534JBUBF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8Y534JBUBF;
 				INFOPLIST_FILE = "50 Thinks Book/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.csm.-0-Thinks-Book";
+				PRODUCT_BUNDLE_IDENTIFIER = com.centralstationmarketing.50ThinksBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -918,13 +921,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Evan Islam (9G6F7TBHUS)";
-				DEVELOPMENT_TEAM = 68449K2QZC;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Central Station Marketing, LLC (8Y534JBUBF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8Y534JBUBF;
 				INFOPLIST_FILE = "50 Thinks Book/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.csm.-0-Thinks-Book";
+				PRODUCT_BUNDLE_IDENTIFIER = com.centralstationmarketing.50ThinksBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
