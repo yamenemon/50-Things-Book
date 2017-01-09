@@ -24,7 +24,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSString *theString = @"Be Great Now, The Joy of Generosity, Thank your way to the Top, Remembering your Mentors, Encourage the next Generation, R-E-S-P-E-C-T, Help your way out of a Slump, Written Goals, Rebounding your Way to Sales Success, Solve your way to Success, Multi Task, Multi Income Streams, Leverage, 1 in 98 shot to 1 Million, You Bet, Help friends find jobs, Give Referrals,  Three Way Calls,  Don't Beautiful Barbara Things, Dialing for Dollars,  Solutions no Dump Trucks,  Don't leave your Success to Chance,  Mistakes and Failures Mandatory,  School is always in Session, Happy Bombs,  Ozzy \"When to say we verses I\", Thanksgiving vs. Christmas, No sales No problem, Don't say no for your Customer, Be Charitable, 366 Days from Now, Don't count on being thanked, Ask Questions, Be Assertive, Watch out for the Vice in Advice, Being the best is Duly Noted, Are you just visiting?, No instant pill for Success, Create Freedom, Magic Number 5, Before Tax Dollars vs. After Tax Dollars, Find the \"Why\", What's in it for them? , Equity, YOU INC, Let them go, Hurry vs. No Hurry people, Sell Yes or Buy No, Get Used, Convert Pay into Assets or Income Streams, Do it Now!,In Closing";
+    NSString *theString = @"Be Great Now, The Joy of Generosity, Thank your way to the Top, Remembering your Mentors, Encourage the next Generation, R-E-S-P-E-C-T, Help your way out of a Slump, Written Goals, Rebounding your Way to Sales Success, Solve your way to Success, Multi Task, Multi Income Streams, Leverage, 1 in 98 shot to 1 Million, You Bet, Help friends find jobs, Give Referrals,  Three Way Calls,  Don't Beautiful Barbara Things, Dialing for Dollars,  Solutions no Dump Trucks,  Don't leave your Success to Chance,  Mistakes and Failures Mandatory,  School is always in Session, Happy Bombs,  Ozzy \"When to say we verses I\", Thanksgiving vs. Christmas, No sales No problem, Don't say no for your Customer, Be Charitable, 366 Days from Now, Don't count on being thanked, Ask Questions, Be Assertive, Watch out for the Vice in Advice, Being the best is Duly Noted, Are you just visiting?, No instant pill for Success, Create Freedom, Magic Number 5, Before Tax Dollars vs. After Tax Dollars, Find the \"Why\", What's in it for them? , Equity, YOU INC, Let them go, Hurry vs. No Hurry people, Sell Yes or Buy No, Get Used, Convert Pay into Assets or Income Streams, Do it Now!";
     
    items = [theString componentsSeparatedByString:@","];
 
@@ -95,7 +95,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 51;
+    return 52;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -115,8 +115,16 @@
     bgColorView.backgroundColor = UIColorFromRGB(0xC09667); //
     [cell setSelectedBackgroundView:bgColorView];
     // Configure the cell...
-    cell.textLabel.text = [NSString stringWithFormat:@"Chapter %ld: %@",indexPath.row+1,[items objectAtIndex:indexPath.row + 1]];
     
+    if (indexPath.row == 0) {
+        cell.textLabel.text = [NSString stringWithFormat:@"Introduction"];
+    }
+    else if (indexPath.row == 51){
+        cell.textLabel.text = [NSString stringWithFormat:@"Inclosing"];
+    }
+    else{
+        cell.textLabel.text = [NSString stringWithFormat:@"Chapter %ld: %@",indexPath.row,[items objectAtIndex:indexPath.row]];
+    }
     return cell;
     
 }
@@ -130,11 +138,15 @@
     
     for (int i=0; i<pdfs.count; i++) {
         NSString* pdfPathString = [pdfs objectAtIndex:i];
-        if ([pdfPathString containsString:[NSString stringWithFormat:@"/%ld.PDF",indexPath.row+1]]) {
+        if ([pdfPathString containsString:[NSString stringWithFormat:@"/%ld.PDF",indexPath.row]]) {
             filePath = pdfPathString; assert(filePath != nil); // Path to first PDF file
             break;
         }
         if ([pdfPathString containsString:[NSString stringWithFormat:@"/In Closing.PDF"]]) {
+            filePath = pdfPathString; assert(filePath != nil); // Path to first PDF file
+            break;
+        }
+        if ([pdfPathString containsString:[NSString stringWithFormat:@"/Introduction.PDF"]]) {
             filePath = pdfPathString; assert(filePath != nil); // Path to first PDF file
             break;
         }

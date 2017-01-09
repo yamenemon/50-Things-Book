@@ -148,6 +148,7 @@
 		700E2CDB1E1B9FF60042A897 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700E2CDA1E1B9FF60042A897 /* ImageIO.framework */; };
 		700E2CDD1E1BAF480042A897 /* In Closing.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700E2CDC1E1BAF480042A897 /* In Closing.PDF */; };
 		702770CE1E1BBB8E00D8E4C5 /* accessoryIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 702770CD1E1BBB8E00D8E4C5 /* accessoryIcon@2x.png */; };
+		70D9C8111E2374F900238A2E /* Introduction.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 70D9C8101E2374F900238A2E /* Introduction.PDF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -320,6 +321,7 @@
 		700E2CDA1E1B9FF60042A897 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		700E2CDC1E1BAF480042A897 /* In Closing.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "In Closing.PDF"; sourceTree = "<group>"; };
 		702770CD1E1BBB8E00D8E4C5 /* accessoryIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accessoryIcon@2x.png"; sourceTree = "<group>"; };
+		70D9C8101E2374F900238A2E /* Introduction.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Introduction.PDF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -440,6 +442,7 @@
 		700465DC1E1AA56F009B2663 /* PDF */ = {
 			isa = PBXGroup;
 			children = (
+				70D9C8101E2374F900238A2E /* Introduction.PDF */,
 				700E2CDC1E1BAF480042A897 /* In Closing.PDF */,
 				700466A71E1AAD89009B2663 /* 1.PDF */,
 				700466421E1AA8A2009B2663 /* 2.PDF */,
@@ -746,6 +749,7 @@
 				700465B11E1A6092009B2663 /* iconTab3@3x.png in Resources */,
 				700E2CCA1E1B9FA60042A897 /* Reader-Mark-Y@3x.png in Resources */,
 				7004667C1E1AA8A3009B2663 /* 10.PDF in Resources */,
+				70D9C8111E2374F900238A2E /* Introduction.PDF in Resources */,
 				700E2CC21E1B9FA60042A897 /* Reader-Export.png in Resources */,
 				700465AE1E1A6092009B2663 /* iconTab2@3x.png in Resources */,
 				7004668D1E1AA8A3009B2663 /* 27.PDF in Resources */,
