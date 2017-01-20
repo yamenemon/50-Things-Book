@@ -47,56 +47,6 @@
 		700465D61E1A8B5A009B2663 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 700465D31E1A8B5A009B2663 /* Default.png */; };
 		700465D71E1A8B5A009B2663 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 700465D41E1A8B5A009B2663 /* Default@2x.png */; };
 		700465DA1E1A9D38009B2663 /* PdfViewerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700465D91E1A9D38009B2663 /* PdfViewerViewController.m */; };
-		700466741E1AA8A3009B2663 /* 2.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466421E1AA8A2009B2663 /* 2.PDF */; };
-		700466751E1AA8A3009B2663 /* 3.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466431E1AA8A2009B2663 /* 3.PDF */; };
-		700466761E1AA8A3009B2663 /* 4.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466441E1AA8A2009B2663 /* 4.PDF */; };
-		700466771E1AA8A3009B2663 /* 5.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466451E1AA8A2009B2663 /* 5.PDF */; };
-		700466781E1AA8A3009B2663 /* 6.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466461E1AA8A2009B2663 /* 6.PDF */; };
-		700466791E1AA8A3009B2663 /* 7.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466471E1AA8A2009B2663 /* 7.PDF */; };
-		7004667A1E1AA8A3009B2663 /* 8.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466481E1AA8A2009B2663 /* 8.PDF */; };
-		7004667B1E1AA8A3009B2663 /* 9.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466491E1AA8A2009B2663 /* 9.PDF */; };
-		7004667C1E1AA8A3009B2663 /* 10.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004664A1E1AA8A2009B2663 /* 10.PDF */; };
-		7004667D1E1AA8A3009B2663 /* 11.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004664B1E1AA8A2009B2663 /* 11.PDF */; };
-		7004667E1E1AA8A3009B2663 /* 12.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004664C1E1AA8A2009B2663 /* 12.PDF */; };
-		7004667F1E1AA8A3009B2663 /* 13.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004664D1E1AA8A2009B2663 /* 13.PDF */; };
-		700466801E1AA8A3009B2663 /* 14.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004664E1E1AA8A3009B2663 /* 14.PDF */; };
-		700466811E1AA8A3009B2663 /* 15.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004664F1E1AA8A3009B2663 /* 15.PDF */; };
-		700466821E1AA8A3009B2663 /* 16.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466501E1AA8A3009B2663 /* 16.PDF */; };
-		700466831E1AA8A3009B2663 /* 17.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466511E1AA8A3009B2663 /* 17.PDF */; };
-		700466841E1AA8A3009B2663 /* 18.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466521E1AA8A3009B2663 /* 18.PDF */; };
-		700466851E1AA8A3009B2663 /* 19.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466531E1AA8A3009B2663 /* 19.PDF */; };
-		700466861E1AA8A3009B2663 /* 20.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466541E1AA8A3009B2663 /* 20.PDF */; };
-		700466871E1AA8A3009B2663 /* 21.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466551E1AA8A3009B2663 /* 21.PDF */; };
-		700466881E1AA8A3009B2663 /* 22.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466561E1AA8A3009B2663 /* 22.PDF */; };
-		700466891E1AA8A3009B2663 /* 23.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466571E1AA8A3009B2663 /* 23.PDF */; };
-		7004668A1E1AA8A3009B2663 /* 24.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466581E1AA8A3009B2663 /* 24.PDF */; };
-		7004668B1E1AA8A3009B2663 /* 25.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466591E1AA8A3009B2663 /* 25.PDF */; };
-		7004668C1E1AA8A3009B2663 /* 26.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004665A1E1AA8A3009B2663 /* 26.PDF */; };
-		7004668D1E1AA8A3009B2663 /* 27.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004665B1E1AA8A3009B2663 /* 27.PDF */; };
-		7004668E1E1AA8A3009B2663 /* 28.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004665C1E1AA8A3009B2663 /* 28.PDF */; };
-		7004668F1E1AA8A3009B2663 /* 29.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004665D1E1AA8A3009B2663 /* 29.PDF */; };
-		700466901E1AA8A3009B2663 /* 30.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004665E1E1AA8A3009B2663 /* 30.PDF */; };
-		700466911E1AA8A3009B2663 /* 31.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004665F1E1AA8A3009B2663 /* 31.PDF */; };
-		700466921E1AA8A3009B2663 /* 32.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466601E1AA8A3009B2663 /* 32.PDF */; };
-		700466931E1AA8A3009B2663 /* 33.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466611E1AA8A3009B2663 /* 33.PDF */; };
-		700466941E1AA8A3009B2663 /* 34.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466621E1AA8A3009B2663 /* 34.PDF */; };
-		700466951E1AA8A3009B2663 /* 35.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466631E1AA8A3009B2663 /* 35.PDF */; };
-		700466961E1AA8A3009B2663 /* 36.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466641E1AA8A3009B2663 /* 36.PDF */; };
-		700466971E1AA8A3009B2663 /* 37.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466651E1AA8A3009B2663 /* 37.PDF */; };
-		700466981E1AA8A3009B2663 /* 38.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466661E1AA8A3009B2663 /* 38.PDF */; };
-		700466991E1AA8A3009B2663 /* 39.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466671E1AA8A3009B2663 /* 39.PDF */; };
-		7004669A1E1AA8A3009B2663 /* 40.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466681E1AA8A3009B2663 /* 40.PDF */; };
-		7004669B1E1AA8A3009B2663 /* 41.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466691E1AA8A3009B2663 /* 41.PDF */; };
-		7004669C1E1AA8A3009B2663 /* 42.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004666A1E1AA8A3009B2663 /* 42.PDF */; };
-		7004669D1E1AA8A3009B2663 /* 43.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004666B1E1AA8A3009B2663 /* 43.PDF */; };
-		7004669E1E1AA8A3009B2663 /* 44.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004666C1E1AA8A3009B2663 /* 44.PDF */; };
-		7004669F1E1AA8A3009B2663 /* 45.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004666D1E1AA8A3009B2663 /* 45.PDF */; };
-		700466A01E1AA8A3009B2663 /* 46.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004666E1E1AA8A3009B2663 /* 46.PDF */; };
-		700466A11E1AA8A3009B2663 /* 47.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 7004666F1E1AA8A3009B2663 /* 47.PDF */; };
-		700466A21E1AA8A3009B2663 /* 48.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466701E1AA8A3009B2663 /* 48.PDF */; };
-		700466A31E1AA8A3009B2663 /* 49.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466711E1AA8A3009B2663 /* 49.PDF */; };
-		700466A41E1AA8A3009B2663 /* 50.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466721E1AA8A3009B2663 /* 50.PDF */; };
-		700466A81E1AAD89009B2663 /* 1.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700466A71E1AAD89009B2663 /* 1.PDF */; };
 		700E2C8B1E1B905E0042A897 /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 700E2C641E1B905E0042A897 /* CGPDFDocument.m */; };
 		700E2C8C1E1B905E0042A897 /* ReaderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 700E2C661E1B905E0042A897 /* ReaderConstants.m */; };
 		700E2C8D1E1B905E0042A897 /* ReaderContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 700E2C681E1B905E0042A897 /* ReaderContentPage.m */; };
@@ -146,7 +96,6 @@
 		700E2CD71E1B9FE80042A897 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700E2CD61E1B9FE80042A897 /* QuartzCore.framework */; };
 		700E2CD91E1B9FEF0042A897 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700E2CD81E1B9FEF0042A897 /* MessageUI.framework */; };
 		700E2CDB1E1B9FF60042A897 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700E2CDA1E1B9FF60042A897 /* ImageIO.framework */; };
-		700E2CDD1E1BAF480042A897 /* In Closing.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 700E2CDC1E1BAF480042A897 /* In Closing.PDF */; };
 		702770CE1E1BBB8E00D8E4C5 /* accessoryIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 702770CD1E1BBB8E00D8E4C5 /* accessoryIcon@2x.png */; };
 		70D9C8111E2374F900238A2E /* Introduction.PDF in Resources */ = {isa = PBXBuildFile; fileRef = 70D9C8101E2374F900238A2E /* Introduction.PDF */; };
 /* End PBXBuildFile section */
@@ -200,56 +149,6 @@
 		700465D41E1A8B5A009B2663 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		700465D81E1A9D38009B2663 /* PdfViewerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PdfViewerViewController.h; sourceTree = "<group>"; };
 		700465D91E1A9D38009B2663 /* PdfViewerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PdfViewerViewController.m; sourceTree = "<group>"; };
-		700466421E1AA8A2009B2663 /* 2.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 2.PDF; sourceTree = "<group>"; };
-		700466431E1AA8A2009B2663 /* 3.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 3.PDF; sourceTree = "<group>"; };
-		700466441E1AA8A2009B2663 /* 4.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 4.PDF; sourceTree = "<group>"; };
-		700466451E1AA8A2009B2663 /* 5.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 5.PDF; sourceTree = "<group>"; };
-		700466461E1AA8A2009B2663 /* 6.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 6.PDF; sourceTree = "<group>"; };
-		700466471E1AA8A2009B2663 /* 7.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 7.PDF; sourceTree = "<group>"; };
-		700466481E1AA8A2009B2663 /* 8.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 8.PDF; sourceTree = "<group>"; };
-		700466491E1AA8A2009B2663 /* 9.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 9.PDF; sourceTree = "<group>"; };
-		7004664A1E1AA8A2009B2663 /* 10.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 10.PDF; sourceTree = "<group>"; };
-		7004664B1E1AA8A2009B2663 /* 11.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 11.PDF; sourceTree = "<group>"; };
-		7004664C1E1AA8A2009B2663 /* 12.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 12.PDF; sourceTree = "<group>"; };
-		7004664D1E1AA8A2009B2663 /* 13.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 13.PDF; sourceTree = "<group>"; };
-		7004664E1E1AA8A3009B2663 /* 14.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 14.PDF; sourceTree = "<group>"; };
-		7004664F1E1AA8A3009B2663 /* 15.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 15.PDF; sourceTree = "<group>"; };
-		700466501E1AA8A3009B2663 /* 16.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 16.PDF; sourceTree = "<group>"; };
-		700466511E1AA8A3009B2663 /* 17.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 17.PDF; sourceTree = "<group>"; };
-		700466521E1AA8A3009B2663 /* 18.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 18.PDF; sourceTree = "<group>"; };
-		700466531E1AA8A3009B2663 /* 19.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 19.PDF; sourceTree = "<group>"; };
-		700466541E1AA8A3009B2663 /* 20.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 20.PDF; sourceTree = "<group>"; };
-		700466551E1AA8A3009B2663 /* 21.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 21.PDF; sourceTree = "<group>"; };
-		700466561E1AA8A3009B2663 /* 22.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 22.PDF; sourceTree = "<group>"; };
-		700466571E1AA8A3009B2663 /* 23.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 23.PDF; sourceTree = "<group>"; };
-		700466581E1AA8A3009B2663 /* 24.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 24.PDF; sourceTree = "<group>"; };
-		700466591E1AA8A3009B2663 /* 25.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 25.PDF; sourceTree = "<group>"; };
-		7004665A1E1AA8A3009B2663 /* 26.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 26.PDF; sourceTree = "<group>"; };
-		7004665B1E1AA8A3009B2663 /* 27.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 27.PDF; sourceTree = "<group>"; };
-		7004665C1E1AA8A3009B2663 /* 28.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 28.PDF; sourceTree = "<group>"; };
-		7004665D1E1AA8A3009B2663 /* 29.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 29.PDF; sourceTree = "<group>"; };
-		7004665E1E1AA8A3009B2663 /* 30.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 30.PDF; sourceTree = "<group>"; };
-		7004665F1E1AA8A3009B2663 /* 31.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 31.PDF; sourceTree = "<group>"; };
-		700466601E1AA8A3009B2663 /* 32.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 32.PDF; sourceTree = "<group>"; };
-		700466611E1AA8A3009B2663 /* 33.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 33.PDF; sourceTree = "<group>"; };
-		700466621E1AA8A3009B2663 /* 34.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 34.PDF; sourceTree = "<group>"; };
-		700466631E1AA8A3009B2663 /* 35.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 35.PDF; sourceTree = "<group>"; };
-		700466641E1AA8A3009B2663 /* 36.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 36.PDF; sourceTree = "<group>"; };
-		700466651E1AA8A3009B2663 /* 37.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 37.PDF; sourceTree = "<group>"; };
-		700466661E1AA8A3009B2663 /* 38.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 38.PDF; sourceTree = "<group>"; };
-		700466671E1AA8A3009B2663 /* 39.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 39.PDF; sourceTree = "<group>"; };
-		700466681E1AA8A3009B2663 /* 40.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 40.PDF; sourceTree = "<group>"; };
-		700466691E1AA8A3009B2663 /* 41.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 41.PDF; sourceTree = "<group>"; };
-		7004666A1E1AA8A3009B2663 /* 42.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 42.PDF; sourceTree = "<group>"; };
-		7004666B1E1AA8A3009B2663 /* 43.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 43.PDF; sourceTree = "<group>"; };
-		7004666C1E1AA8A3009B2663 /* 44.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 44.PDF; sourceTree = "<group>"; };
-		7004666D1E1AA8A3009B2663 /* 45.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 45.PDF; sourceTree = "<group>"; };
-		7004666E1E1AA8A3009B2663 /* 46.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 46.PDF; sourceTree = "<group>"; };
-		7004666F1E1AA8A3009B2663 /* 47.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 47.PDF; sourceTree = "<group>"; };
-		700466701E1AA8A3009B2663 /* 48.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 48.PDF; sourceTree = "<group>"; };
-		700466711E1AA8A3009B2663 /* 49.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 49.PDF; sourceTree = "<group>"; };
-		700466721E1AA8A3009B2663 /* 50.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 50.PDF; sourceTree = "<group>"; };
-		700466A71E1AAD89009B2663 /* 1.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 1.PDF; sourceTree = "<group>"; };
 		700E2C631E1B905E0042A897 /* CGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGPDFDocument.h; path = Sources/CGPDFDocument.h; sourceTree = "<group>"; };
 		700E2C641E1B905E0042A897 /* CGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGPDFDocument.m; path = Sources/CGPDFDocument.m; sourceTree = "<group>"; };
 		700E2C651E1B905E0042A897 /* ReaderConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReaderConstants.h; path = Sources/ReaderConstants.h; sourceTree = "<group>"; };
@@ -319,7 +218,6 @@
 		700E2CD61E1B9FE80042A897 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		700E2CD81E1B9FEF0042A897 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		700E2CDA1E1B9FF60042A897 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		700E2CDC1E1BAF480042A897 /* In Closing.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "In Closing.PDF"; sourceTree = "<group>"; };
 		702770CD1E1BBB8E00D8E4C5 /* accessoryIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "accessoryIcon@2x.png"; sourceTree = "<group>"; };
 		70D9C8101E2374F900238A2E /* Introduction.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Introduction.PDF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -443,57 +341,6 @@
 			isa = PBXGroup;
 			children = (
 				70D9C8101E2374F900238A2E /* Introduction.PDF */,
-				700E2CDC1E1BAF480042A897 /* In Closing.PDF */,
-				700466A71E1AAD89009B2663 /* 1.PDF */,
-				700466421E1AA8A2009B2663 /* 2.PDF */,
-				700466431E1AA8A2009B2663 /* 3.PDF */,
-				700466441E1AA8A2009B2663 /* 4.PDF */,
-				700466451E1AA8A2009B2663 /* 5.PDF */,
-				700466461E1AA8A2009B2663 /* 6.PDF */,
-				700466471E1AA8A2009B2663 /* 7.PDF */,
-				700466481E1AA8A2009B2663 /* 8.PDF */,
-				700466491E1AA8A2009B2663 /* 9.PDF */,
-				7004664A1E1AA8A2009B2663 /* 10.PDF */,
-				7004664B1E1AA8A2009B2663 /* 11.PDF */,
-				7004664C1E1AA8A2009B2663 /* 12.PDF */,
-				7004664D1E1AA8A2009B2663 /* 13.PDF */,
-				7004664E1E1AA8A3009B2663 /* 14.PDF */,
-				7004664F1E1AA8A3009B2663 /* 15.PDF */,
-				700466501E1AA8A3009B2663 /* 16.PDF */,
-				700466511E1AA8A3009B2663 /* 17.PDF */,
-				700466521E1AA8A3009B2663 /* 18.PDF */,
-				700466531E1AA8A3009B2663 /* 19.PDF */,
-				700466541E1AA8A3009B2663 /* 20.PDF */,
-				700466551E1AA8A3009B2663 /* 21.PDF */,
-				700466561E1AA8A3009B2663 /* 22.PDF */,
-				700466571E1AA8A3009B2663 /* 23.PDF */,
-				700466581E1AA8A3009B2663 /* 24.PDF */,
-				700466591E1AA8A3009B2663 /* 25.PDF */,
-				7004665A1E1AA8A3009B2663 /* 26.PDF */,
-				7004665B1E1AA8A3009B2663 /* 27.PDF */,
-				7004665C1E1AA8A3009B2663 /* 28.PDF */,
-				7004665D1E1AA8A3009B2663 /* 29.PDF */,
-				7004665E1E1AA8A3009B2663 /* 30.PDF */,
-				7004665F1E1AA8A3009B2663 /* 31.PDF */,
-				700466601E1AA8A3009B2663 /* 32.PDF */,
-				700466611E1AA8A3009B2663 /* 33.PDF */,
-				700466621E1AA8A3009B2663 /* 34.PDF */,
-				700466631E1AA8A3009B2663 /* 35.PDF */,
-				700466641E1AA8A3009B2663 /* 36.PDF */,
-				700466651E1AA8A3009B2663 /* 37.PDF */,
-				700466661E1AA8A3009B2663 /* 38.PDF */,
-				700466671E1AA8A3009B2663 /* 39.PDF */,
-				700466681E1AA8A3009B2663 /* 40.PDF */,
-				700466691E1AA8A3009B2663 /* 41.PDF */,
-				7004666A1E1AA8A3009B2663 /* 42.PDF */,
-				7004666B1E1AA8A3009B2663 /* 43.PDF */,
-				7004666C1E1AA8A3009B2663 /* 44.PDF */,
-				7004666D1E1AA8A3009B2663 /* 45.PDF */,
-				7004666E1E1AA8A3009B2663 /* 46.PDF */,
-				7004666F1E1AA8A3009B2663 /* 47.PDF */,
-				700466701E1AA8A3009B2663 /* 48.PDF */,
-				700466711E1AA8A3009B2663 /* 49.PDF */,
-				700466721E1AA8A3009B2663 /* 50.PDF */,
 			);
 			name = PDF;
 			sourceTree = "<group>";
@@ -647,12 +494,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				700466921E1AA8A3009B2663 /* 32.PDF in Resources */,
 				700E2CC11E1B9FA60042A897 /* Reader-Email@3x.png in Resources */,
-				700466851E1AA8A3009B2663 /* 19.PDF in Resources */,
 				700E2CBD1E1B9FA60042A897 /* Reader-Button-N@2x.png in Resources */,
 				700E2CC01E1B9FA60042A897 /* Reader-Email@2x.png in Resources */,
-				700466751E1AA8A3009B2663 /* 3.PDF in Resources */,
 				700E2CCD1E1B9FA60042A897 /* Reader-Print@3x.png in Resources */,
 				700E2CC91E1B9FA60042A897 /* Reader-Mark-Y@2x.png in Resources */,
 				702770CE1E1BBB8E00D8E4C5 /* accessoryIcon@2x.png in Resources */,
@@ -660,87 +504,41 @@
 				700465C01E1A7D34009B2663 /* iconTab0_hover.png in Resources */,
 				700E2CC71E1B9FA60042A897 /* Reader-Mark-N@3x.png in Resources */,
 				700465D11E1A86B7009B2663 /* iconTab1@3x.png in Resources */,
-				700466801E1AA8A3009B2663 /* 14.PDF in Resources */,
-				700466881E1AA8A3009B2663 /* 22.PDF in Resources */,
-				700466901E1AA8A3009B2663 /* 30.PDF in Resources */,
-				7004669A1E1AA8A3009B2663 /* 40.PDF in Resources */,
-				7004669B1E1AA8A3009B2663 /* 41.PDF in Resources */,
 				700E2CCB1E1B9FA60042A897 /* Reader-Print.png in Resources */,
-				700466741E1AA8A3009B2663 /* 2.PDF in Resources */,
-				700466761E1AA8A3009B2663 /* 4.PDF in Resources */,
-				7004667E1E1AA8A3009B2663 /* 12.PDF in Resources */,
 				700465C61E1A7D34009B2663 /* iconTab2_hover_hover.png in Resources */,
-				700466931E1AA8A3009B2663 /* 33.PDF in Resources */,
-				700466A31E1AA8A3009B2663 /* 49.PDF in Resources */,
-				700466781E1AA8A3009B2663 /* 6.PDF in Resources */,
-				7004668B1E1AA8A3009B2663 /* 25.PDF in Resources */,
 				700E2CCE1E1B9FA60042A897 /* Reader-Thumbs.png in Resources */,
 				3BFA81561E16A080005C6299 /* Assets.xcassets in Resources */,
-				700E2CDD1E1BAF480042A897 /* In Closing.PDF in Resources */,
 				700465AF1E1A6092009B2663 /* iconTab3.png in Resources */,
-				700466821E1AA8A3009B2663 /* 16.PDF in Resources */,
-				7004669C1E1AA8A3009B2663 /* 42.PDF in Resources */,
-				700466951E1AA8A3009B2663 /* 35.PDF in Resources */,
-				700466771E1AA8A3009B2663 /* 5.PDF in Resources */,
-				700466971E1AA8A3009B2663 /* 37.PDF in Resources */,
 				700465CA1E1A7D34009B2663 /* iconTab3_hover@2x.png in Resources */,
-				700466A11E1AA8A3009B2663 /* 47.PDF in Resources */,
 				700E2CB91E1B9FA60042A897 /* Reader-Button-H.png in Resources */,
 				700465AA1E1A6092009B2663 /* iconTab1@2x.png in Resources */,
 				700E2CBA1E1B9FA60042A897 /* Reader-Button-H@2x.png in Resources */,
-				700466791E1AA8A3009B2663 /* 7.PDF in Resources */,
 				700E2CC61E1B9FA60042A897 /* Reader-Mark-N@2x.png in Resources */,
 				700465C41E1A7D34009B2663 /* iconTab1_hover@2x.png in Resources */,
 				700E2CCC1E1B9FA60042A897 /* Reader-Print@2x.png in Resources */,
-				7004668E1E1AA8A3009B2663 /* 28.PDF in Resources */,
-				700466891E1AA8A3009B2663 /* 23.PDF in Resources */,
-				700466941E1AA8A3009B2663 /* 34.PDF in Resources */,
 				3BFA81541E16A07F005C6299 /* Main.storyboard in Resources */,
-				7004668A1E1AA8A3009B2663 /* 24.PDF in Resources */,
 				700465D61E1A8B5A009B2663 /* Default.png in Resources */,
-				700466A81E1AAD89009B2663 /* 1.PDF in Resources */,
 				700E2CC41E1B9FA60042A897 /* Reader-Export@3x.png in Resources */,
 				700465A91E1A6092009B2663 /* iconTab1.png in Resources */,
 				700E2CCF1E1B9FA60042A897 /* Reader-Thumbs@2x.png in Resources */,
-				700466811E1AA8A3009B2663 /* 15.PDF in Resources */,
 				700465C11E1A7D34009B2663 /* iconTab0_hover@2x.png in Resources */,
-				700466861E1AA8A3009B2663 /* 20.PDF in Resources */,
 				700E2CBB1E1B9FA60042A897 /* Reader-Button-H@3x.png in Resources */,
 				700465C91E1A7D34009B2663 /* iconTab3_hover.png in Resources */,
 				700E2CBF1E1B9FA60042A897 /* Reader-Email.png in Resources */,
-				700466961E1AA8A3009B2663 /* 36.PDF in Resources */,
-				7004669D1E1AA8A3009B2663 /* 43.PDF in Resources */,
-				7004668C1E1AA8A3009B2663 /* 26.PDF in Resources */,
-				7004667D1E1AA8A3009B2663 /* 11.PDF in Resources */,
 				700465D51E1A8B5A009B2663 /* Default-568h@2x.png in Resources */,
-				7004667A1E1AA8A3009B2663 /* 8.PDF in Resources */,
-				700466A01E1AA8A3009B2663 /* 46.PDF in Resources */,
-				700466991E1AA8A3009B2663 /* 39.PDF in Resources */,
-				7004668F1E1AA8A3009B2663 /* 29.PDF in Resources */,
 				700E2CBC1E1B9FA60042A897 /* Reader-Button-N.png in Resources */,
 				700465C81E1A7D34009B2663 /* iconTab2_hover@3x.png in Resources */,
 				700465CE1E1A866D009B2663 /* iconTab0@2x.png in Resources */,
-				700466A41E1AA8A3009B2663 /* 50.PDF in Resources */,
 				3BFA818B1E16E76F005C6299 /* LuluLogo@2x.png in Resources */,
-				700466831E1AA8A3009B2663 /* 17.PDF in Resources */,
 				700465AD1E1A6092009B2663 /* iconTab2@2x.png in Resources */,
-				700466841E1AA8A3009B2663 /* 18.PDF in Resources */,
-				700466A21E1AA8A3009B2663 /* 48.PDF in Resources */,
 				700E2CC81E1B9FA60042A897 /* Reader-Mark-Y.png in Resources */,
-				700466981E1AA8A3009B2663 /* 38.PDF in Resources */,
 				700465CF1E1A866D009B2663 /* iconTab0@3x.png in Resources */,
 				700465AC1E1A6092009B2663 /* iconTab2.png in Resources */,
-				700466871E1AA8A3009B2663 /* 21.PDF in Resources */,
-				7004667F1E1AA8A3009B2663 /* 13.PDF in Resources */,
 				700E2CC51E1B9FA60042A897 /* Reader-Mark-N.png in Resources */,
 				700465C31E1A7D34009B2663 /* iconTab1_hover_hover.png in Resources */,
 				700E2CD01E1B9FA60042A897 /* Reader-Thumbs@3x.png in Resources */,
 				3BFA818F1E16F4AB005C6299 /* timShiner@2x.png in Resources */,
-				7004667B1E1AA8A3009B2663 /* 9.PDF in Resources */,
-				700466911E1AA8A3009B2663 /* 31.PDF in Resources */,
-				7004669E1E1AA8A3009B2663 /* 44.PDF in Resources */,
 				700465A61E1A6092009B2663 /* iconTab0.png in Resources */,
-				7004669F1E1AA8A3009B2663 /* 45.PDF in Resources */,
 				700465C21E1A7D34009B2663 /* iconTab0_hover@3x.png in Resources */,
 				700465C71E1A7D34009B2663 /* iconTab2_hover@2x.png in Resources */,
 				700465D71E1A8B5A009B2663 /* Default@2x.png in Resources */,
@@ -748,11 +546,9 @@
 				700465C51E1A7D34009B2663 /* iconTab1_hover@3x.png in Resources */,
 				700465B11E1A6092009B2663 /* iconTab3@3x.png in Resources */,
 				700E2CCA1E1B9FA60042A897 /* Reader-Mark-Y@3x.png in Resources */,
-				7004667C1E1AA8A3009B2663 /* 10.PDF in Resources */,
 				70D9C8111E2374F900238A2E /* Introduction.PDF in Resources */,
 				700E2CC21E1B9FA60042A897 /* Reader-Export.png in Resources */,
 				700465AE1E1A6092009B2663 /* iconTab2@3x.png in Resources */,
-				7004668D1E1AA8A3009B2663 /* 27.PDF in Resources */,
 				3BFA818A1E16E76F005C6299 /* amazon@2x.png in Resources */,
 				700465B31E1A6150009B2663 /* foreword@2x.png in Resources */,
 				700465B01E1A6092009B2663 /* iconTab3@2x.png in Resources */,
@@ -916,6 +712,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.centralstationmarketing.50ThinksBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;

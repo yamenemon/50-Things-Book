@@ -27,6 +27,7 @@
     NSString *theString = @"Be Great Now, The Joy of Generosity, Thank your way to the Top, Remembering your Mentors, Encourage the next Generation, R-E-S-P-E-C-T, Help your way out of a Slump, Written Goals, Rebounding your Way to Sales Success, Solve your way to Success, Multi Task, Multi Income Streams, Leverage, 1 in 98 shot to 1 Million, You Bet, Help friends find jobs, Give Referrals,  Three Way Calls,  Don't Beautiful Barbara Things, Dialing for Dollars,  Solutions no Dump Trucks,  Don't leave your Success to Chance,  Mistakes and Failures Mandatory,  School is always in Session, Happy Bombs,  Ozzy \"When to say we verses I\", Thanksgiving vs. Christmas, No sales No problem, Don't say no for your Customer, Be Charitable, 366 Days from Now, Don't count on being thanked, Ask Questions, Be Assertive, Watch out for the Vice in Advice, Being the best is Duly Noted, Are you just visiting?, No instant pill for Success, Create Freedom, Magic Number 5, Before Tax Dollars vs. After Tax Dollars, Find the \"Why\", What's in it for them? , Equity, YOU INC, Let them go, Hurry vs. No Hurry people, Sell Yes or Buy No, Get Used, Convert Pay into Assets or Income Streams, Do it Now!";
     
    items = [theString componentsSeparatedByString:@","];
+   _indexTable.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 
 }
 - (void)viewWillAppear:(BOOL)animated
@@ -95,7 +96,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 52;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -117,7 +118,7 @@
     // Configure the cell...
     
     if (indexPath.row == 0) {
-        cell.textLabel.text = [NSString stringWithFormat:@"Introduction"];
+        cell.textLabel.text = [NSString stringWithFormat:@"Preview"];
     }
     else if (indexPath.row == 51){
         cell.textLabel.text = [NSString stringWithFormat:@"Inclosing"];
@@ -142,15 +143,16 @@
             filePath = pdfPathString; assert(filePath != nil); // Path to first PDF file
             break;
         }
-        if ([pdfPathString containsString:[NSString stringWithFormat:@"/In Closing.PDF"]]) {
-            filePath = pdfPathString; assert(filePath != nil); // Path to first PDF file
-            break;
-        }
+//        if ([pdfPathString containsString:[NSString stringWithFormat:@"/In Closing.PDF"]]) {
+//            filePath = pdfPathString; assert(filePath != nil); // Path to first PDF file
+//            break;
+//        }
         if ([pdfPathString containsString:[NSString stringWithFormat:@"/Introduction.PDF"]]) {
             filePath = pdfPathString; assert(filePath != nil); // Path to first PDF file
             break;
         }
     }
+    
     
     ReaderDocument *document = [ReaderDocument withDocumentFilePath:filePath password:phrase];
     

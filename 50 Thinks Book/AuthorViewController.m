@@ -26,14 +26,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     _authorTextHeight = [self calculateAuthorTextHeight];
-//    _authorInfoScroller = [[UIScrollView alloc] initWithFrame:CGRectMake(5, _authorHeaderText.frame.origin.y+_authorHeaderText.frame.size.height, self.view.frame.size.width - 10, self.view.frame.size.height-(_authorHeaderText.frame.origin.y+_authorHeaderText.frame.size.height))];
-//    [self.view addSubview:_authorInfoScroller];
+}
+-(void)viewDidLayoutSubviews{
+
+    [[NSNotificationCenter defaultCenter] addObserver:self  selector:@selector(orientationChanged:)  name:UIDeviceOrientationDidChangeNotification  object:nil];
+}
+-(void)viewWillAppear:(BOOL)animated{
+    CGRect frame = _authorInfoScroller.frame;
+    frame.size.width = self.view.bounds.size.width;
+    _authorInfoScroller.frame = frame;
     
     [self createScroller];
 }
--(void)viewWillAppear:(BOOL)animated{
-    [[NSNotificationCenter defaultCenter] addObserver:self  selector:@selector(orientationChanged:)  name:UIDeviceOrientationDidChangeNotification  object:nil];
-}
+
 -(void)createScroller{
 
     float width = 200;
@@ -51,7 +56,7 @@
     if (authorTextLabel) {
         [authorTextLabel removeFromSuperview];
     }
-    authorTextLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 10+authorImageView.frame.size.height, _authorInfoScroller.frame.size.width - 25, _authorTextHeight)];
+    authorTextLabel = [[UILabel alloc] initWithFrame:CGRectMake(10, 10+authorImageView.frame.size.height, _authorInfoScroller.frame.size.width - 20, _authorTextHeight)];
     authorTextLabel.text = authorText;
     [_authorInfoScroller addSubview:authorTextLabel];
     authorTextLabel.font = [UIFont fontWithName:@"BodoniSvtyTwoITCTT-BookIta" size:18];;
@@ -73,20 +78,6 @@
     [self handleOrientation:[[UIApplication sharedApplication] statusBarOrientation]];
 }
 - (void) handleOrientation:(UIInterfaceOrientation) orientation {
-    
-//    if (orientation == UIInterfaceOrientationPortrait || orientation == UIInterfaceOrientationPortraitUpsideDown)
-//    {
-//        //handle the portrait view
-//    }
-//    else if (orientation == UIInterfaceOrientationLandscapeLeft || orientation == UIInterfaceOrientationLandscapeRight)
-//    {
-//    
-//        CGRect frame = _authorInfoScroller.frame;
-//        frame.size.width = self.view.bounds.size.width;
-//        _authorInfoScroller.frame = frame;
-//        
-//        [self createScroller];
-//    }
     
     CGRect frame = _authorInfoScroller.frame;
     frame.size.width = self.view.bounds.size.width;

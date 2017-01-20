@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -106,7 +106,7 @@ Founder of Guru Alert.</string>
                                             <outlet property="delegate" destination="8rJ-Kc-sve" id="VLI-g1-VgF"/>
                                         </connections>
                                     </tableView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chapters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLX-S2-Avt">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preview" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLX-S2-Avt">
                                         <rect key="frame" x="8" y="14" width="398" height="48"/>
                                         <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Bold" family="Bodoni 72 Oldstyle" pointSize="40"/>
                                         <nil key="textColor"/>
@@ -172,7 +172,7 @@ Founder of Guru Alert.</string>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKt-BY-Oui">
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKt-BY-Oui">
                                         <rect key="frame" x="0.0" y="86" width="414" height="598"/>
                                     </scrollView>
                                 </subviews>
@@ -237,51 +237,58 @@ Founder of Guru Alert.</string>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dlq-8S-zJG">
-                                        <rect key="frame" x="60" y="125" width="315" height="70"/>
-                                        <color key="backgroundColor" red="0.60469990968704224" green="0.46856319904327393" blue="0.32330328226089478" alpha="0.49553189212328769" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OGr-8N-5tM" userLabel="Button Container">
+                                        <rect key="frame" x="20" y="100" width="374" height="579"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dlq-8S-zJG">
+                                                <rect key="frame" x="0.0" y="10" width="374" height="59"/>
+                                                <color key="backgroundColor" red="0.60469990968704224" green="0.46856319904327393" blue="0.32330328226089478" alpha="0.49553189212328769" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="30"/>
+                                                <inset key="imageEdgeInsets" minX="-50" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Amazon" image="amazon.png">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="amazonButtonAction:" destination="69z-w5-x7B" eventType="touchUpInside" id="Od6-AE-IbK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bou-hz-m9b">
+                                                <rect key="frame" x="0.0" y="74" width="374" height="58.333333333333343"/>
+                                                <color key="backgroundColor" red="0.60469990968704224" green="0.46856319904327393" blue="0.32330328226089478" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="30"/>
+                                                <inset key="imageEdgeInsets" minX="-88" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <state key="normal" title="Lulu" image="LuluLogo.png">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="luluButtonAction:" destination="69z-w5-x7B" eventType="touchUpInside" id="lQ6-O2-1la"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="01H-0M-JOd"/>
-                                            <constraint firstAttribute="width" constant="315" id="Z0m-rk-Ow2"/>
+                                            <constraint firstAttribute="trailing" secondItem="Dlq-8S-zJG" secondAttribute="trailing" id="AfF-wk-igX"/>
+                                            <constraint firstItem="Bou-hz-m9b" firstAttribute="leading" secondItem="OGr-8N-5tM" secondAttribute="leading" id="L9Z-88-fL8"/>
+                                            <constraint firstItem="Dlq-8S-zJG" firstAttribute="top" secondItem="OGr-8N-5tM" secondAttribute="top" constant="10" id="al4-VK-pJK"/>
+                                            <constraint firstItem="Bou-hz-m9b" firstAttribute="top" secondItem="Dlq-8S-zJG" secondAttribute="bottom" constant="5" id="ghE-bh-gRX"/>
+                                            <constraint firstItem="Dlq-8S-zJG" firstAttribute="leading" secondItem="OGr-8N-5tM" secondAttribute="leading" id="lOi-3u-ac6"/>
+                                            <constraint firstAttribute="trailing" secondItem="Bou-hz-m9b" secondAttribute="trailing" id="nOJ-Y7-dif"/>
+                                            <constraint firstItem="Dlq-8S-zJG" firstAttribute="height" secondItem="Bou-hz-m9b" secondAttribute="height" id="uPS-Wg-9Tc"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="30"/>
-                                        <inset key="imageEdgeInsets" minX="-50" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="Amazon" image="amazon.png">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="amazonButtonAction:" destination="69z-w5-x7B" eventType="touchUpInside" id="Od6-AE-IbK"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bou-hz-m9b">
-                                        <rect key="frame" x="60" y="214" width="315" height="70"/>
-                                        <color key="backgroundColor" red="0.60469990968704224" green="0.46856319904327393" blue="0.32330328226089478" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="30"/>
-                                        <inset key="imageEdgeInsets" minX="-88" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="Lulu" image="LuluLogo.png">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="luluButtonAction:" destination="69z-w5-x7B" eventType="touchUpInside" id="lQ6-O2-1la"/>
-                                        </connections>
-                                    </button>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="67C-cw-3Mt" secondAttribute="trailing" id="1jH-nh-m82"/>
-                                    <constraint firstItem="Bou-hz-m9b" firstAttribute="centerX" secondItem="Dlq-8S-zJG" secondAttribute="centerX" id="61B-FU-B5b"/>
-                                    <constraint firstItem="Bou-hz-m9b" firstAttribute="leading" secondItem="Dlq-8S-zJG" secondAttribute="leading" id="6uy-1a-EDQ"/>
-                                    <constraint firstItem="Dlq-8S-zJG" firstAttribute="centerX" secondItem="67C-cw-3Mt" secondAttribute="centerX" constant="10.5" id="CCL-VZ-GSz"/>
-                                    <constraint firstItem="Bou-hz-m9b" firstAttribute="top" secondItem="Dlq-8S-zJG" secondAttribute="bottom" constant="19" id="MLK-jw-M6W"/>
-                                    <constraint firstItem="Bou-hz-m9b" firstAttribute="trailing" secondItem="Dlq-8S-zJG" secondAttribute="trailing" id="NCW-Pf-HPx"/>
+                                    <constraint firstAttribute="bottom" secondItem="OGr-8N-5tM" secondAttribute="bottom" constant="8" id="JvM-Qb-R0P"/>
                                     <constraint firstItem="67C-cw-3Mt" firstAttribute="top" secondItem="pkA-Gl-xFI" secondAttribute="top" id="NX9-9r-N60"/>
-                                    <constraint firstItem="Bou-hz-m9b" firstAttribute="width" secondItem="Dlq-8S-zJG" secondAttribute="width" id="S9I-w2-oLi"/>
+                                    <constraint firstItem="OGr-8N-5tM" firstAttribute="leading" secondItem="pkA-Gl-xFI" secondAttribute="leading" constant="20" id="W3K-fA-mOF"/>
+                                    <constraint firstItem="OGr-8N-5tM" firstAttribute="top" secondItem="pkA-Gl-xFI" secondAttribute="top" constant="100" id="WHq-vy-s7Q"/>
                                     <constraint firstAttribute="bottom" secondItem="67C-cw-3Mt" secondAttribute="bottom" constant="-48" id="Ych-uK-y7w"/>
                                     <constraint firstItem="67C-cw-3Mt" firstAttribute="leading" secondItem="pkA-Gl-xFI" secondAttribute="leading" id="bKn-yB-p66"/>
                                     <constraint firstAttribute="trailing" secondItem="udx-9U-SPn" secondAttribute="trailing" constant="8" id="bVT-cf-9DU"/>
-                                    <constraint firstItem="Dlq-8S-zJG" firstAttribute="top" secondItem="udx-9U-SPn" secondAttribute="bottom" constant="48" id="cti-3o-IUQ"/>
                                     <constraint firstItem="udx-9U-SPn" firstAttribute="leading" secondItem="pkA-Gl-xFI" secondAttribute="leading" constant="8" id="k7G-K0-aXt"/>
-                                    <constraint firstItem="Bou-hz-m9b" firstAttribute="height" secondItem="Dlq-8S-zJG" secondAttribute="height" id="rRb-kz-gTf"/>
+                                    <constraint firstAttribute="trailing" secondItem="OGr-8N-5tM" secondAttribute="trailing" constant="20" id="wz5-MP-6qR"/>
                                     <constraint firstItem="udx-9U-SPn" firstAttribute="top" secondItem="pkA-Gl-xFI" secondAttribute="top" constant="33" id="yPE-jk-wXk"/>
                                 </constraints>
                             </view>
@@ -299,12 +306,14 @@ Founder of Guru Alert.</string>
                     <nil key="simulatedStatusBarMetrics"/>
                     <connections>
                         <outlet property="amazonBtn" destination="Dlq-8S-zJG" id="U6q-2G-Kbi"/>
+                        <outlet property="btnContainer" destination="OGr-8N-5tM" id="jDq-zN-sA7"/>
+                        <outlet property="btnContainerTopConstraint" destination="WHq-vy-s7Q" id="q05-nP-lUU"/>
                         <outlet property="luluBtn" destination="Bou-hz-m9b" id="8ld-sU-AQo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0iJ-kC-YGr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2909" y="-326"/>
+            <point key="canvasLocation" x="2908.6956521739135" y="-326.08695652173918"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -332,7 +341,6 @@ Founder of Guru Alert.</string>
         <!--Item-->
         <scene sceneID="Jol-WK-p9k">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fWu-cd-MN2" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="a0f-lw-mhM" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="iM8-6u-YQU"/>
                     <toolbarItems/>
@@ -347,6 +355,7 @@ Founder of Guru Alert.</string>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="h3l-gS-xeL"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fWu-cd-MN2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-267" y="-333"/>
         </scene>

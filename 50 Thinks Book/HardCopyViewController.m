@@ -11,6 +11,9 @@
 @interface HardCopyViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *amazonBtn;
 @property (weak, nonatomic) IBOutlet UIButton *luluBtn;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *heightCon;
+@property (weak, nonatomic) IBOutlet UIView *btnContainer;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *btnContainerTopConstraint;
 
 @end
 
@@ -24,7 +27,23 @@
 
     _amazonBtn.layer.cornerRadius = 5.0;
     _luluBtn.layer.cornerRadius = 5.0;
+    [self.view setNeedsUpdateConstraints];
+}
+-(void)updateViewConstraints {
+    [super updateViewConstraints];
 
+    if ((self.btnContainerTopConstraint.constant+_heightCon.constant)>self.view.bounds.size.height) {
+        self.heightCon.constant = (self.view.frame.size.height)-self.btnContainerTopConstraint.constant;
+    }
+    if (UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation))
+    {
+        // code for landscape orientation
+    }
+    
+    if (UIDeviceOrientationIsPortrait([UIDevice currentDevice].orientation))
+    {
+        // code for Portrait orientation
+    }
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

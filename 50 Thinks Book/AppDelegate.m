@@ -42,7 +42,7 @@
 
     tabBarItem2.selectedImage = [[UIImage imageNamed:@"iconTab1"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
     tabBarItem2.image = [[UIImage imageNamed:@"iconTab1_hover"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
-    tabBarItem2.title = @"Chapters";
+    tabBarItem2.title = @"Preview";
 
     tabBarItem3.selectedImage = [[UIImage imageNamed:@"iconTab2"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
     tabBarItem3.image = [[UIImage imageNamed:@"iconTab2_hover"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ];
